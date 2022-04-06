@@ -389,7 +389,7 @@ def parse_sexpr(s):
                 if parens == 0:
                     try:
                         x = parse_sexpr("".join(cur))
-                    except InvalidSexprException, e:
+                    except InvalidSexprException as e:
                         raise InvalidSexprException("Parent: %s" % s, e)
 
                     if x:
