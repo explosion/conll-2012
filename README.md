@@ -5,3 +5,5 @@ to simplify setting up the training data.
 
 Note this data contains only skeleton files, and must be combined with a copy
 of OntoNotes to produce the real training data.
+
+The original data is available [at this link](https://conll.cemantix.org/2012/data.html).
