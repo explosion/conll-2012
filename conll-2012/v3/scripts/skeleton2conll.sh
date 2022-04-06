@@ -193,7 +193,7 @@ for language in arabic english chinese; do
       fi
 
       conll=${skel/_skel/$EXT}
-      erun -v "python $d/v?/scripts/skeleton2conll.py $gold_parse $skel $conll $EDITED --text"
+      erun -v "python2 $d/v?/scripts/skeleton2conll.py $gold_parse $skel $conll $EDITED --text"
     done
   done
 done
