@@ -189,7 +189,7 @@ for language in arabic english chinese; do
 
       if [[ ! -e $gold_parse ]]; then
         error "could not find the gold parse [$gold_parse] in the ontonotes distribution ... exiting ..."
-        exit
+        exit 1
       fi
 
       conll=${skel/_skel/$EXT}
